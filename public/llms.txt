@@ -7,41 +7,41 @@
 ## Pages
 
 ### בית
-https://-03d29482.zappy5.app
+https://example.com
 רוצים לשנות דפוסים, לצמוח ולהתפתח? אימון NLP מקצועי המשלב הקשבה עמוקה, הדרכה חינוכית וכלים מעשיים לשינוי אמיתי. הצעד הראשון לחיים מלאים יותר מתחיל כאן.
 
 ### שירותים
-https://-03d29482.zappy5.app/services
+https://example.com/services
 מחפשים כלים מדויקים לצמיחה? מגוון שירותים הכוללים אימון NLP אישי, הרצאות מעוררות השראה, הנחיית קבוצות מעצימה והדרכה חינוכית לגיל הרך. בואו לגלות את המסלול שמתאים לכם.
 
 ### אודות
-https://-03d29482.zappy5.app/about
+https://example.com/about
 מי עומדת מאחורי הגישה הייחודית? הכירו את מיכל אבני, מומחית לאימון NLP, חינוך והנחיית אנשי מקצוע, המביאה ניסיון עשיר, הקשבה אמיתית ומחויבות עמוקה לצמיחה האישית שלכם.
 
 ### משאבים
-https://-03d29482.zappy5.app/resources
+https://example.com/resources
 מחפשים תוכן איכותי שידליק לכם את הניצוץ? מאמרים, סיפורי הצלחה וכלים מעשיים מעולם אימון ה-NLP, ההרצאות והחינוך. היכנסו להעמיק, ללמוד ולצמוח עוד היום.
 
 ### צור קשר
-https://-03d29482.zappy5.app/contact
+https://example.com/contact
 מוכנים להתחיל בתהליך שישנה את חייכם? צרו קשר עוד היום לתיאום פגישת ייעוץ, הרצאה או סדנת אימון NLP. אני כאן כדי להקשיב, לכוון ולצעוד איתכם בדרך להצלחה.
 
 ### תודה שפנית אלינו
-https://-03d29482.zappy5.app/thank-you
+https://example.com/thank-you
 מיכל אבני- מקצועיות קשובה ללב - תודה שפנית אלינו
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-03d29482.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-03d29482.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-03d29482.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -51,8 +51,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://-03d29482.zappy5.app/contact
-- Endpoint: https://-03d29482.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -89,6 +89,6 @@ Coaching & Education
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-03d29482.zappy5.app/sitemap.xml
-- Robots: https://-03d29482.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-03d29482.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
