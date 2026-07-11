@@ -1,0 +1,94 @@
+# מיכל אבני- מקצועיות קשובה ללב — Generative Engine Optimization Map
+
+> A professional coaching and education practice specializing in NLP (Neuro-Linguistic Programming), offering training, lecturing, and educational guidance. The practitioner also provides supervision services, indicating a high level of expertise and a role as a mentor to other professionals in the field. The brand likely conveys trust, personal growth, empowerment, and professional development.
+
+---
+
+## Pages
+
+### בית
+https://-03d29482.zappy5.app
+רוצים לשנות דפוסים, לצמוח ולהתפתח? אימון NLP מקצועי המשלב הקשבה עמוקה, הדרכה חינוכית וכלים מעשיים לשינוי אמיתי. הצעד הראשון לחיים מלאים יותר מתחיל כאן.
+
+### שירותים
+https://-03d29482.zappy5.app/services
+מחפשים כלים מדויקים לצמיחה? מגוון שירותים הכוללים אימון NLP אישי, הרצאות מעוררות השראה, הנחיית קבוצות מעצימה והדרכה חינוכית לגיל הרך. בואו לגלות את המסלול שמתאים לכם.
+
+### אודות
+https://-03d29482.zappy5.app/about
+מי עומדת מאחורי הגישה הייחודית? הכירו את מיכל אבני, מומחית לאימון NLP, חינוך והנחיית אנשי מקצוע, המביאה ניסיון עשיר, הקשבה אמיתית ומחויבות עמוקה לצמיחה האישית שלכם.
+
+### משאבים
+https://-03d29482.zappy5.app/resources
+מחפשים תוכן איכותי שידליק לכם את הניצוץ? מאמרים, סיפורי הצלחה וכלים מעשיים מעולם אימון ה-NLP, ההרצאות והחינוך. היכנסו להעמיק, ללמוד ולצמוח עוד היום.
+
+### צור קשר
+https://-03d29482.zappy5.app/contact
+מוכנים להתחיל בתהליך שישנה את חייכם? צרו קשר עוד היום לתיאום פגישת ייעוץ, הרצאה או סדנת אימון NLP. אני כאן כדי להקשיב, לכוון ולצעוד איתכם בדרך להצלחה.
+
+### תודה שפנית אלינו
+https://-03d29482.zappy5.app/thank-you
+מיכל אבני- מקצועיות קשובה ללב - תודה שפנית אלינו
+
+## Legal & Policy
+
+### Privacy Policy
+https://-03d29482.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-03d29482.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-03d29482.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-03d29482.zappy5.app/contact
+- Endpoint: https://-03d29482.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About מיכל אבני- מקצועיות קשובה ללב
+A professional coaching and education practice specializing in NLP (Neuro-Linguistic Programming), offering training, lecturing, and educational guidance. The practitioner also provides supervision services, indicating a high level of expertise and a role as a mentor to other professionals in the field. The brand likely conveys trust, personal growth, empowerment, and professional development.
+
+## Services/Products
+- אימון NLP
+- הרצאות
+- הדרכה חינוכית
+- סופרוויזיה
+
+## Target Audience
+- מנהיגים חינוכיים
+- קבוצות העצמה נשית
+- מאמנים ארגוניים
+- מנהל.ות מסגרות חינוכיות בגיל הרך
+- נשים התהליכי שינוי
+
+## Industry
+Coaching & Education
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-03d29482.zappy5.app/sitemap.xml
+- Robots: https://-03d29482.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-03d29482.zappy5.app/llms-full.txt
