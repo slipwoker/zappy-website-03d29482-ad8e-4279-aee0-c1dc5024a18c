@@ -49,8 +49,8 @@ Information about WCAG compliance and accessibility features.
 ## How to Contact Us
 
 - Email: michal5677@gmail.com
-- Phone: +972523734312
-- Phone (tel): tel:+972523734312
+- Phone: 0523734312
+- Phone (tel): tel:0523734312
 - Address: התקווה 7, פרדס חנה כרכור, 3717237, ישראל
 
 ### Contact form
