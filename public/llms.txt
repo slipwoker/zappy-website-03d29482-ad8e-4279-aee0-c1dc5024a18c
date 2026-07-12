@@ -26,8 +26,8 @@ https://example.com/resources
 https://example.com/thank-you
 מיכל אבני- מקצועיות קשובה ללב - תודה שפנית אלינו
 
-### דברו איתי: הצעד הראשון למסע האישי שלכם — מיכל אבני- מקצועיות קשובה ללב
-https://example.com/contact
+### בואו נדבר
+https://example.com/lets-talk
 מוכנים להתחיל בתהליך שישנה את חייכם? צרו קשר עוד היום לתיאום פגישת ייעוץ, הרצאה או סדנת אימון NLP. אני כאן כדי להקשיב, לכוון ולצעוד איתכם בדרך להצלחה.
 
 ## Legal & Policy
@@ -54,7 +54,7 @@ Information about WCAG compliance and accessibility features.
 - Address: התקווה 7, פרדס חנה כרכור, 3717237, ישראל
 
 ### Contact form
-- URL: https://example.com/contact
+- URL: https://example.com/lets-talk
 - Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
