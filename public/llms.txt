@@ -59,7 +59,7 @@ Information about WCAG compliance and accessibility features.
 - Email: michal5677@gmail.com
 - Phone: 0523734312
 - Phone (tel): tel:0523734312
-- Address: התקווה 7, פרדס חנה כרכור, 3717237, ישראל
+- Address: התקווה, 7, פרדס חנה כרכור, ישראל, 3717237, ישראל
 
 ### Contact form
 - URL: https://michal-avni.co.il/lets-talk
