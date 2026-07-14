@@ -1629,27 +1629,54 @@ if (document.readyState === 'complete') {
 (function(){if(window._zappyNavScrollCleanup){window._zappyNavScrollCleanup();delete window._zappyNavScrollCleanup;}var nb=document.querySelector('nav.navbar,.navbar:not(.zappy-catalog-menu)');var cm=document.querySelector('.zappy-catalog-menu,#zappy-catalog-menu');function clr(){if(nb){nb.style.removeProperty('background');nb.style.removeProperty('background-color');nb.style.removeProperty('backdrop-filter');nb.style.removeProperty('-webkit-backdrop-filter');nb.style.removeProperty('box-shadow');nb.style.removeProperty('--frosted-text');nb.classList.remove('scrolled');}if(cm){cm.style.removeProperty('background');cm.style.removeProperty('background-color');cm.style.removeProperty('backdrop-filter');cm.style.removeProperty('-webkit-backdrop-filter');cm.classList.remove('scrolled');}}clr();window.addEventListener('scroll',clr,{passive:true});window._zappyNavScrollCleanup=function(){window.removeEventListener('scroll',clr);};})();
 /* === NAVBAR SCROLL JS OVERRIDE END === */
 
-/* ZAPPY_CUSTOM_JS_START:fcb4d988700b */
+/* ZAPPY_CUSTOM_JS_START:27a0a8ebbb46 */
 (function () {
   function __zappyCustomInit() {
     try {
 // סימון העמוד הפעיל בתפריט הניווט
 (function() {
-  const currentPath = window.location.pathname;
-  const navLinks = document.querySelectorAll('#navMenu li a');
-  
-  navLinks.forEach(function(link) {
-    const href = link.getAttribute('href');
-    if (!href) return;
+  function markActiveNav() {
+    // זיהוי הנתיב האמיתי — תומך גם ב-preview URL (פרמטר page) וגם באתר חי
+    var currentPath = window.location.pathname;
+    var params = new URLSearchParams(window.location.search);
+    var pageParam = params.get('page');
     
-    // ניקוי הנתיבים להשוואה — הסרת / מהסוף
-    const linkPath = href.replace(/\/+$/, '');
-    const curPath = currentPath.replace(/\/+$/, '');
-    
-    if (linkPath === curPath) {
-      link.classList.add('active-nav');
+    // אם יש פרמטר page (סביבת preview), נשתמש בו
+    if (pageParam) {
+      currentPath = pageParam;
     }
-  });
+    
+    var navLinks = document.querySelectorAll('#navMenu li a');
+    
+    // הסרת class פעיל קודם
+    navLinks.forEach(function(link) {
+      link.classList.remove('active-nav');
+    });
+    
+    navLinks.forEach(function(link) {
+      var href = link.getAttribute('href');
+      if (!href) return;
+      
+      // הסרת פרמטרים מה-href
+      var linkPath = href.split('?')[0].replace(/\/+$/, '') || '/';
+      var curPath = currentPath.split('?')[0].replace(/\/+$/, '') || '/';
+      
+      // decode paths
+      linkPath = decodeURIComponent(linkPath);
+      curPath = decodeURIComponent(curPath);
+      
+      if (linkPath === curPath) {
+        link.classList.add('active-nav');
+      }
+    });
+  }
+  
+  // הרצה
+  if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    markActiveNav();
+  }
+  document.addEventListener('DOMContentLoaded', markActiveNav);
+  window.addEventListener('load', markActiveNav);
 })();
     } catch (e) {
       if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
@@ -1661,7 +1688,7 @@ if (document.readyState === 'complete') {
     __zappyCustomInit();
   }
 })();
-/* ZAPPY_CUSTOM_JS_END:fcb4d988700b */
+/* ZAPPY_CUSTOM_JS_END:27a0a8ebbb46 */
 
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
