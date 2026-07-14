@@ -7590,6 +7590,157 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
   background-color: var(--secondary) !important;
   border-radius: 2px !important;
 }
+
+#navMenu li a[href="/What People Say"] {
+  color: var(--secondary-color, var(--secondary, #E8774A)) !important;
+  font-weight: 800 !important;
+  font-size: 1.15em !important;
+  position: relative !important;
+}
+
+#navMenu li a[href="/What People Say"]::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: -4px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 70% !important;
+  height: 3px !important;
+  background-color: var(--secondary-color, var(--secondary, #E8774A)) !important;
+  border-radius: 2px !important;
+}
+
+#navMenu li a[href="/"] {
+  color: var(--secondary-color, var(--secondary, #E8774A)) !important;
+  font-weight: 800 !important;
+  font-size: 1.15em !important;
+  position: relative !important;
+}
+
+#navMenu li a[href="/"]::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: -4px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 70% !important;
+  height: 3px !important;
+  background-color: var(--secondary-color, var(--secondary, #E8774A)) !important;
+  border-radius: 2px !important;
+}
+
+#navMenu li a[href="/nice-to-meet"] {
+  color: var(--secondary-color, var(--secondary, #E8774A)) !important;
+  font-weight: 800 !important;
+  font-size: 1.15em !important;
+  position: relative !important;
+}
+
+#navMenu li a[href="/nice-to-meet"]::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: -4px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 70% !important;
+  height: 3px !important;
+  background-color: var(--secondary-color, var(--secondary, #E8774A)) !important;
+  border-radius: 2px !important;
+}
+
+#navMenu li a[href="/what-i-bring-with-me"] {
+  color: var(--secondary-color, var(--secondary, #E8774A)) !important;
+  font-weight: 800 !important;
+  font-size: 1.15em !important;
+  position: relative !important;
+}
+
+#navMenu li a[href="/what-i-bring-with-me"]::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: -4px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 70% !important;
+  height: 3px !important;
+  background-color: var(--secondary-color, var(--secondary, #E8774A)) !important;
+  border-radius: 2px !important;
+}
+
+#navMenu li a[href="/how-we-can-work-together"] {
+  color: var(--secondary-color, var(--secondary, #E8774A)) !important;
+  font-weight: 800 !important;
+  font-size: 1.15em !important;
+  position: relative !important;
+}
+
+#navMenu li a[href="/how-we-can-work-together"]::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: -4px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 70% !important;
+  height: 3px !important;
+  background-color: var(--secondary-color, var(--secondary, #E8774A)) !important;
+  border-radius: 2px !important;
+}
+
+#navMenu li a[href="/more-from-me"] {
+  color: var(--secondary-color, var(--secondary, #E8774A)) !important;
+  font-weight: 800 !important;
+  font-size: 1.15em !important;
+  position: relative !important;
+}
+
+#navMenu li a[href="/more-from-me"]::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: -4px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 70% !important;
+  height: 3px !important;
+  background-color: var(--secondary-color, var(--secondary, #E8774A)) !important;
+  border-radius: 2px !important;
+}
+
+#navMenu li a[href="/lets-talk"] {
+  color: var(--secondary-color, var(--secondary, #E8774A)) !important;
+  font-weight: 800 !important;
+  font-size: 1.15em !important;
+  position: relative !important;
+}
+
+#navMenu li a[href="/lets-talk"]::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: -4px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 70% !important;
+  height: 3px !important;
+  background-color: var(--secondary-color, var(--secondary, #E8774A)) !important;
+  border-radius: 2px !important;
+}
+
+#navMenu li a[href="/What People Say"]::after,
+#navMenu li a[href="/nice-to-meet"]::after,
+#navMenu li a[href="/what-i-bring-with-me"]::after,
+#navMenu li a[href="/how-we-can-work-together"]::after,
+#navMenu li a[href="/more-from-me"]::after,
+#navMenu li a[href="/"]::after,
+#navMenu li a[href="/lets-talk"]::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: -4px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 70% !important;
+  height: 3px !important;
+  background-color: var(--secondary-color, var(--secondary, #E8774A)) !important;
+  border-radius: 2px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
