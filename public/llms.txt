@@ -7,41 +7,41 @@
 ## Pages
 
 ### גלו את הכוח שבכם עם אימון NLP — מיכל אבני- מקצועיות קשובה ללב
-https://example.com
+https://michal-avni-keshev-professiona.zappy5.app
 רוצים לשנות דפוסים, לצמוח ולהתפתח? אימון NLP מקצועי המשלב הקשבה עמוקה, הדרכה חינוכית וכלים מעשיים לשינוי אמיתי. הצעד הראשון לחיים מלאים יותר מתחיל כאן.
 
 ### נעים להכיר
-https://example.com/nice-to-meet
+https://michal-avni-keshev-professiona.zappy5.app/nice-to-meet
 מי עומדת מאחורי הגישה הייחודית? הכירו את מיכל אבני, מומחית לאימון NLP, חינוך והנחיית אנשי מקצוע, המביאה ניסיון עשיר, הקשבה אמיתית ומחויבות עמוקה לצמיחה האישית שלכם.
 
 ### מה אני מציעה
-https://example.com/what-i-offer
+https://michal-avni-keshev-professiona.zappy5.app/what-i-offer
 מחפשים כלים מדויקים לצמיחה? מגוון שירותים הכוללים אימון NLP אישי, הרצאות מעוררות השראה, הנחיית קבוצות מעצימה והדרכה חינוכית לגיל הרך. בואו לגלות את המסלול שמתאים לכם.
 
 ### משאבים להעצמה אישית: תובנות, כלים והשראה — מיכל אבני- מקצועיות קשובה ללב
-https://example.com/resources
+https://michal-avni-keshev-professiona.zappy5.app/resources
 מחפשים תוכן איכותי שידליק לכם את הניצוץ? מאמרים, סיפורי הצלחה וכלים מעשיים מעולם אימון ה-NLP, ההרצאות והחינוך. היכנסו להעמיק, ללמוד ולצמוח עוד היום.
 
 ### תודה שפנית אלינו
-https://example.com/thank-you
+https://michal-avni-keshev-professiona.zappy5.app/thank-you
 מיכל אבני- מקצועיות קשובה ללב - תודה שפנית אלינו
 
 ### בואו נדבר
-https://example.com/lets-talk
+https://michal-avni-keshev-professiona.zappy5.app/lets-talk
 מוכנים להתחיל בתהליך שישנה את חייכם? צרו קשר עוד היום לתיאום פגישת ייעוץ, הרצאה או סדנת אימון NLP. אני כאן כדי להקשיב, לכוון ולצעוד איתכם בדרך להצלחה.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://michal-avni-keshev-professiona.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://michal-avni-keshev-professiona.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://michal-avni-keshev-professiona.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -54,8 +54,8 @@ Information about WCAG compliance and accessibility features.
 - Address: התקווה 7, פרדס חנה כרכור, 3717237, ישראל
 
 ### Contact form
-- URL: https://example.com/lets-talk
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://michal-avni-keshev-professiona.zappy5.app/lets-talk
+- Endpoint: https://michal-avni-keshev-professiona.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -92,6 +92,6 @@ Coaching & Education
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://michal-avni-keshev-professiona.zappy5.app/sitemap.xml
+- Robots: https://michal-avni-keshev-professiona.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://michal-avni-keshev-professiona.zappy5.app/llms-full.txt
