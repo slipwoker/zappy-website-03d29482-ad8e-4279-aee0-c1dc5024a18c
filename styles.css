@@ -7505,6 +7505,73 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
   inset-inline-end: -28px !important;
   opacity: 0.9 !important;
 }
+
+#navMenu li a[href="/"] {
+  position: relative;
+}
+
+#navMenu li a[href="/nice-to-meet"],
+#navMenu li a[href="/what-i-bring-with-me"],
+#navMenu li a[href="/how-we-can-work-together"],
+#navMenu li a[href="/more-from-me"],
+#navMenu li a[href="/What People Say"],
+#navMenu li a[href="/lets-talk"] {
+  position: relative;
+}
+
+#navMenu li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: var(--secondary, var(--secondary-color, var(--secondary, #E8774A)));
+  border-radius: 3px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+#navMenu li a:hover::after {
+  content: '';
+  transform: scaleX(1);
+}
+
+#navMenu li a.active-nav {
+  position: relative;
+  color: var(--nav-text-hover, #C8745B) !important;
+  font-weight: 600;
+}
+
+#navMenu li a.active-nav::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%) scaleX(1);
+  width: 100%;
+  height: 3px;
+  background-color: var(--secondary, var(--secondary-color, var(--secondary, #E8774A)));
+  border-radius: 3px;
+}
+
+#navMenu li a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%) scaleX(0);
+  width: 100%;
+  height: 3px;
+  background-color: var(--secondary, var(--secondary-color, var(--secondary, #E8774A)));
+  border-radius: 3px;
+  transition: transform 0.3s ease;
+}
+
+#navMenu li a:hover::after {
+  content: '';
+  transform: translateX(-50%) scaleX(1);
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
