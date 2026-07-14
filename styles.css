@@ -7765,6 +7765,14 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
 .site-footer .footer-grid {
   justify-content: space-between;
 }
+
+.contact-contact-intro-section {
+  padding: 60px 16px 40px 16px !important;
+}
+
+.contact-contact-form-section {
+  padding: 60px 24px 120px 24px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
