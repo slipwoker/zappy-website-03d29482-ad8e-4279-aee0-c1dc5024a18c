@@ -7764,6 +7764,10 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
 .footer-company-col h4 {
   color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
 }
+
+.site-footer .footer-grid {
+  justify-content: space-between;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
