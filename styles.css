@@ -4232,7 +4232,7 @@ main { flex: 1 0 auto; }
   position: relative;
   display: inline-block;
   width: 100%;
-  max-width: 480px;
+  max-width: 560px;
 }
 
 .about-profile-section__portrait-image {
