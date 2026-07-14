@@ -17,8 +17,8 @@ https://michal-avni.co.il/nice-to-meet
 ### Page
 https://michal-avni.co.il/what-i-bring-with-me
 
-### הדרך שלכם להצלחה: אימון NLP, הרצאות והנחיית קבוצות — מיכל אבני- מקצועיות קשובה ללב
-https://michal-avni.co.il/what-i-offer
+### איך נוכל לעבוד יחד
+https://michal-avni.co.il/how-we-can-work-together
 מחפשים כלים מדויקים לצמיחה? מגוון שירותים הכוללים אימון NLP אישי, הרצאות מעוררות השראה, הנחיית קבוצות מעצימה והדרכה חינוכית לגיל הרך. בואו לגלות את המסלול שמתאים לכם.
 
 ### משאבים להעצמה אישית: תובנות, כלים והשראה — מיכל אבני- מקצועיות קשובה ללב
@@ -62,11 +62,11 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text)
-  - `email` (email)
+  - `name` (text, required)
+  - `email` (email, required)
   - `phone` (tel)
-  - `message` (textarea)
-  - `privacy_consent` (checkbox)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
 
 ---
 
