@@ -364,7 +364,7 @@ html:not([dir]) .whatsapp-float {
   left: 0;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+  box-shadow: none;
   padding: 0;
   font-family: 'Rubik', sans-serif;
 }
@@ -588,7 +588,7 @@ html:not([dir]) .whatsapp-float {
   left: 0;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+  box-shadow: none;
   padding: 0;
   font-family: 'Rubik', sans-serif;
 }
@@ -797,12 +797,6 @@ html:not([dir]) .whatsapp-float {
 }
 
 
-/* ============================================
-   NAVBAR LAYOUT - POST-GENERATION FIXES
-   Structural layout only - colors from Claude
-   ============================================ */
-
-/* Base navbar styles - structural only, colors from AI */
 .navbar {
   position: sticky;
   top: 0;
@@ -810,6 +804,7 @@ html:not([dir]) .whatsapp-float {
   z-index: 1000;
   /* Background color is set by Claude's CSS - don't override */
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: none;
 }
 
 /* ============================================
@@ -1780,6 +1775,7 @@ header:has(> nav > .nav-container) {
   margin: 0 !important;
   left: 0 !important;
   right: 0 !important;
+  box-shadow: none;
 }
 
 nav.navbar {
@@ -7271,10 +7267,10 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 [class*="btn--accent"] { color: #333333 !important; }
 .navbar .nav-cta-btn,
 .nav-cta-btn { color: #FFFFFF !important; }
-/* === BUTTON TEXT OVERRIDES END === */
-
-/* === NAVBAR STYLE OVERRIDES START === */
-.navbar { background-color: #FFFFFF !important; }
+.navbar {
+  background-color: #FFFFFF !important;
+  box-shadow: none;
+}
 .zappy-catalog-menu, #zappy-catalog-menu {}
 .navbar .nav-menu > li > a,
 .navbar .nav-menu > .nav-item > a,
