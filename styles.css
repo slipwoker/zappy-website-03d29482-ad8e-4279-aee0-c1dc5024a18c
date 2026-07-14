@@ -7752,6 +7752,14 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
 .nav-menu, .navbar #navMenu {
   gap: 0 !important;
 }
+
+.footer-links-col .footer-links li a {
+  color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
+}
+
+.footer-links-col .footer-links li a:hover {
+  color: var(--accent-color, var(--accent-color, var(--accent, #2EA8A2))) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
