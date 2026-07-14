@@ -37,6 +37,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://michal-avni.co.il/what-i-bring-with-me</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://michal-avni.co.il/privacy</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>

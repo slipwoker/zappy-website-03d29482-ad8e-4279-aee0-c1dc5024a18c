@@ -30,6 +30,9 @@ https://michal-avni.co.il/thank-you
 https://michal-avni.co.il/lets-talk
 מוכנים להתחיל בתהליך שישנה את חייכם? צרו קשר עוד היום לתיאום פגישת ייעוץ, הרצאה או סדנת אימון NLP. אני כאן כדי להקשיב, לכוון ולצעוד איתכם בדרך להצלחה.
 
+### Page
+https://michal-avni.co.il/what-i-bring-with-me
+
 ## Legal & Policy
 
 ### Privacy Policy
@@ -59,11 +62,11 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text, required)
-  - `email` (email, required)
+  - `name` (text)
+  - `email` (email)
   - `phone` (tel)
-  - `message` (textarea, required)
-  - `privacy_consent` (checkbox, required)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
 
 ---
 
