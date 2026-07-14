@@ -7497,6 +7497,14 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
   inset-inline-end: -14px !important;
   opacity: 0.9 !important;
 }
+
+.about-profile-section .about-profile-section__backplate {
+  width: 70% !important;
+  height: 70% !important;
+  bottom: -28px !important;
+  inset-inline-end: -28px !important;
+  opacity: 0.9 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
