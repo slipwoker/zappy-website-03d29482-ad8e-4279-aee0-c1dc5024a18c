@@ -7572,6 +7572,24 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
   content: '';
   transform: translateX(-50%) scaleX(1);
 }
+
+#navMenu li a.active-nav {
+  color: var(--secondary) !important;
+  font-weight: 700 !important;
+  position: relative !important;
+}
+
+#navMenu li a.active-nav::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: -4px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 70% !important;
+  height: 3px !important;
+  background-color: var(--secondary) !important;
+  border-radius: 2px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
