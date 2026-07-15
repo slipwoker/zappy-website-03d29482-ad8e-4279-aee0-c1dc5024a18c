@@ -7773,6 +7773,8 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
 .contact-contact-form-section {
   padding: 60px 24px 120px 24px !important;
 }
+/* Batch: אחידות צבע שחור, פונט וגודל לכל קישורי הסרגל – דסקטופ ונייד */
+.navbar #navMenu > li > a, .navbar .nav-menu > li > a { color: #000000 !important; font-weight: 500 !important; font-size: 1rem !important; text-decoration: none !important; } @media (max-width: 768px) { .navbar #navMenu > li > a, .navbar .nav-menu > li > a { color: #000000 !important; font-weight: 500 !important; font-size: 1rem !important; text-decoration: none !important; } }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
