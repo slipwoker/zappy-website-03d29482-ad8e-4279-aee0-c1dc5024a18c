@@ -7779,89 +7779,8 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
 .nav-menu a, .nav-menu .menu-group-title, #navMenu a, #navMenu .menu-group-title, .navbar .nav-menu a, .navbar #navMenu a { font-family: 'Assistant', sans-serif !important; font-size: 16px !important; font-weight: 500 !important; color: #000000 !important; text-decoration: none !important; } .nav-menu a:hover, #navMenu a:hover, .navbar .nav-menu a:hover, .navbar #navMenu a:hover { color: #333333 !important; text-decoration: none !important; } .nav-menu a.active-nav, #navMenu a.active-nav { color: #000000 !important; text-decoration: none !important; }
 /* Batch: טעינת פונט Assistant לניווט */
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700&display=swap');
-
-.navbar .nav-menu > li > a,
-.navbar .nav-menu > .nav-item > a,
-.navbar .nav-link,
-.navbar a:not(.nav-cta-btn):not(.logo-link) {
-  text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
-  font-weight: 500 !important;
-  font-size: 1rem !important;
-}
-
-.navbar .nav-menu > li > a.active,
-.navbar .nav-menu > li > a.active-nav,
-.navbar .nav-menu > li > a[aria-current="page"],
-.navbar .nav-link.active {
-  text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
-}
-
-.navbar .nav-menu > li > a:hover,
-.navbar .nav-menu > .nav-item > a:hover,
-.navbar .nav-link:hover {
-  text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
-}
-
-.nav-cta-container a,
-.nav-cta-container .hero-cta-primary {
-  text-decoration: none !important;
-  font-weight: 600 !important;
-  font-size: 1rem !important;
-}
-
-.navbar #navMenu > li > a,
-.navbar #navMenu a,
-#navMenu a,
-.navbar #navMenu > li > a.active,
-.navbar #navMenu > li > a.active-nav {
-  color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
-}
-
-.navbar #navMenu > li > a:hover,
-.navbar #navMenu a:hover,
-#navMenu a:hover {
-  color: var(--secondary-color, var(--secondary, #E8774A)) !important;
-}
-
-.navbar #navMenu > li > a {
-  color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
-}
-
-.navbar .nav-menu li a::after,
-.navbar .nav-menu li a::before,
-.navbar #navMenu li a::after,
-.navbar #navMenu li a::before,
-.navbar .nav-menu > li > a::after,
-.navbar .nav-menu > li > a::before,
-.navbar #navMenu > li > a::after,
-.navbar #navMenu > li > a::before {
-  display: none !important;
-  content: none !important;
-  border: none !important;
-  background: none !important;
-  width: 0 !important;
-  height: 0 !important;
-  opacity: 0 !important;
-}
-
-.navbar .nav-menu li,
-.navbar #navMenu li,
-.navbar .nav-menu > li,
-.navbar #navMenu > li {
-  border-bottom: none !important;
-  box-shadow: none !important;
-}
-
-.navbar .nav-menu *,
-.navbar #navMenu * {
-  border-bottom-color: transparent !important;
-}
+/* Batch: הבלטת ה-navbar: רקע כחול כהה עם צללית, קו תחתון כתום, טקסט בהיר */
+.navbar { background-color: #1A3A6B !important; box-shadow: 0 4px 20px rgba(0,0,0,0.25) !important; border-bottom: 3px solid #E8774A !important; } .navbar .nav-menu a, .navbar .nav-menu .active-nav { color: #F6EFE5 !important; } .navbar .nav-menu a:hover, .navbar .nav-menu .active-nav:hover { color: #E8774A !important; } .navbar .nav-brand .logo-link img { filter: brightness(0) invert(1); } .navbar .hero-cta-primary { background-color: #E8774A !important; color: #FFFFFF !important; border: 2px solid #E8774A !important; } .navbar .mobile-toggle, .navbar .phone-header-btn { color: #F6EFE5 !important; }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
@@ -8854,6 +8773,12 @@ html[dir="ltr"] .solution-item.solution-reverse .solution-image { order: -1 !imp
 html[dir="ltr"] .solution-item.solution-reverse .solution-content { order: 1 !important; }
 html[dir="ltr"] .service-detail.service-reverse .service-detail-image { order: -1 !important; }
 html[dir="ltr"] .service-detail.service-reverse .service-detail-content { order: 1 !important; }
+
+/* ENSURE: navbar-text-contrast */
+:root {
+  --nav-bg: #1A3A6B !important;
+  --nav-text: var(--text-light, #ffffff) !important;
+}
 
 
 /* ZAPPY_MOBILE_NAV_ICON_ALIGNMENT_FIX */
