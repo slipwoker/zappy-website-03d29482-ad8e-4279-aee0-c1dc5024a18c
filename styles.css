@@ -8042,6 +8042,40 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
   background-color: var(--primary, var(--primary-color, var(--primary, #1A3A6B)));
   color: #fff;
 }
+
+#zappy-section-1 .services-capabilities-card {
+  display: flex;
+  flex-direction: column;
+}
+
+#zappy-section-1 .services-capabilities-card .services-capabilities-card-cta {
+  margin-top: auto;
+}
+
+#zappy-section-1 .services-capabilities-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary, var(--primary-color, var(--primary, #1A3A6B)));
+  margin-bottom: 12px;
+}
+
+#zappy-section-1 .services-capabilities-accent-line {
+  width: 60px;
+  height: 3px;
+  background-color: var(--secondary, var(--secondary-color, var(--secondary, #E8774A)));
+  margin: 0 auto 16px auto;
+  border-radius: 2px;
+}
+
+#zappy-section-1 .services-capabilities-subtitle {
+  text-align: center;
+  font-size: 1.15rem;
+  color: var(--text-muted, var(--text-secondary-color, var(--text-secondary, var(--text-muted, #707070))));
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  line-height: 1.6;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
