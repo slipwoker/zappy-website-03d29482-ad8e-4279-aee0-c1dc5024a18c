@@ -8099,6 +8099,19 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
 #zappy-section-1 .services-capabilities-card-cta {
   color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
 }
+
+.index-services-section .service-card-single {
+  background-color: var(--surface);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-subtle);
+}
+
+.index-services-section .service-card-cta:hover {
+  background-color: var(--accent) !important;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-btn-hover);
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
