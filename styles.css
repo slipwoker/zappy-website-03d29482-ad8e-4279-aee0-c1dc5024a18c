@@ -8112,6 +8112,64 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
   transform: translateY(-2px);
   box-shadow: var(--shadow-btn-hover);
 }
+
+#zappy-section-1 .service-card {
+  padding: 32px 40px !important;
+  max-width: 850px !important;
+  margin: 0 auto !important;
+  width: auto !important;
+}
+
+#zappy-section-1 .service-card p {
+  font-size: 1.05rem !important;
+  line-height: 1.8 !important;
+  color: var(--text-dark, var(--text-color, var(--text, var(--text-dark, #4a4a4a)))) !important;
+}
+
+#zappy-section-1 .service-card p b {
+  font-size: 1.2rem !important;
+  color: var(--primary, var(--primary-color, var(--primary, #1A3A6B))) !important;
+  display: block !important;
+  margin-top: 20px !important;
+  margin-bottom: 4px !important;
+}
+
+#zappy-section-1 .service-card p b:first-child {
+  margin-top: 0 !important;
+}
+
+#zappy-section-1 .service-card .card-icon {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 64px !important;
+  height: 64px !important;
+  border-radius: 50% !important;
+  background-color: rgba(26, 58, 107, 0.08) !important;
+  margin-bottom: 28px !important;
+}
+
+#zappy-section-1 .service-card .card-icon svg {
+  width: 36px !important;
+  height: 36px !important;
+  color: var(--primary, var(--primary-color, var(--primary, #1A3A6B))) !important;
+}
+
+#zappy-section-1 .service-card .service-card-cta {
+  display: inline-block !important;
+  margin-top: 28px !important;
+  padding: 12px 28px !important;
+  background-color: var(--secondary, var(--secondary-color, var(--secondary, #E8774A))) !important;
+  color: #fff !important;
+  border-radius: var(--radius-btn, 12px) !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  font-size: 1.05rem !important;
+}
+
+#zappy-section-1 .service-card .service-card-cta:hover {
+  background-color: var(--primary, var(--primary-color, var(--primary, #1A3A6B))) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
