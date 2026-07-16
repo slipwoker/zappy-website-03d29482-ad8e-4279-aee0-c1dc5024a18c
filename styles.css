@@ -8157,6 +8157,14 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
 #zappy-section-1 .service-card .service-card-cta:hover {
   background-color: var(--primary, var(--primary-color, var(--primary, #1A3A6B))) !important;
 }
+
+
+/* Batch: הסרת קו תחתון, הדגשת טקסט, והחלפת כפתור CTA מכתום לכחול */
+.nav-menu a, .nav-menu > li > a, #navMenu a, #navMenu > li > a { text-decoration: none !important; font-weight: 700 !important; } .navbar .hero-cta-primary, .navbar .nav-cta-container a, .nav-cta-container .hero-cta-primary { background-color: var(--primary, #1A3A6B) !important; color: #fff !important; } .navbar .hero-cta-primary:hover, .navbar .nav-cta-container a:hover, .nav-cta-container .hero-cta-primary:hover { background-color: #152e56 !important; color: #fff !important; }
+/* Batch: הדגשת טקסט התפריט */
+.nav-menu a, .nav-menu > li > a, #navMenu a, #navMenu > li > a { font-weight: 700 !important; }
+/* Batch: הדגשת טקסט תפריט ניווט */
+.navbar #navMenu > li > a { font-weight: 700 !important; } .navbar #navMenu a { font-weight: 700 !important; }
 /* Zappy custom logo size (desktop only — mobile stays at 110px/35px) */
 @media (min-width: 769px) {
   .logo, img.logo, .logo img, .logo-link img, .nav-brand img {
@@ -8172,12 +8180,8 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
 }
 /* /Zappy custom logo size */
 
-/* Batch: הסרת קו תחתון, הדגשת טקסט, והחלפת כפתור CTA מכתום לכחול */
-.nav-menu a, .nav-menu > li > a, #navMenu a, #navMenu > li > a { text-decoration: none !important; font-weight: 700 !important; } .navbar .hero-cta-primary, .navbar .nav-cta-container a, .nav-cta-container .hero-cta-primary { background-color: var(--primary, #1A3A6B) !important; color: #fff !important; } .navbar .hero-cta-primary:hover, .navbar .nav-cta-container a:hover, .nav-cta-container .hero-cta-primary:hover { background-color: #152e56 !important; color: #fff !important; }
-/* Batch: הדגשת טקסט התפריט */
-.nav-menu a, .nav-menu > li > a, #navMenu a, #navMenu > li > a { font-weight: 700 !important; }
-/* Batch: הדגשת טקסט תפריט ניווט */
-.navbar #navMenu > li > a { font-weight: 700 !important; } .navbar #navMenu a { font-weight: 700 !important; }
+/* Batch: הקטנת הלוגו ב-10% */
+.logo { width: 144px !important; height: auto !important; }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
