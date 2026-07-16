@@ -7964,6 +7964,66 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
     font-size: 0.95rem;
   }
 }
+
+.about-credentials-section .credential-card {
+  background-color: var(--surface-color, var(--surface, #F4F6F9));
+  border: 1px solid rgba(26, 58, 107, 0.2);
+  border-radius: 16px;
+  padding: 28px 24px;
+  transition: all 0.3s ease;
+}
+
+.about-credentials-section .credential-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  border-color: rgba(26, 58, 107, 0.4);
+}
+
+.about-credentials-section .credential-icon-wrapper {
+  background-color: rgba(232, 119, 74, 0.1);
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.about-credentials-section .credential-icon {
+  color: var(--secondary-color, var(--secondary, #E8774A));
+  width: 32px;
+  height: 32px;
+}
+
+.about-credentials-section .credential-card-title {
+  color: var(--primary-color, var(--primary, #1A3A6B));
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+}
+
+.about-credentials-section .credential-card-desc {
+  color: var(--text-color, var(--text, var(--text-dark, #4a4a4a)));
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.about-credentials-section .credentials-footer-text {
+  color: var(--text-secondary-color, var(--text-secondary, var(--text-muted, #707070)));
+}
+
+.about-credentials-section .credentials-footer {
+  border-top: 1px solid rgba(139, 130, 118, 0.3);
+}
+
+.about-credentials-section .credentials-title {
+  color: var(--primary-color, var(--primary, #1A3A6B));
+}
+
+.about-credentials-section .credentials-subtitle {
+  color: var(--text-secondary-color, var(--text-secondary, var(--text-muted, #707070)));
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
