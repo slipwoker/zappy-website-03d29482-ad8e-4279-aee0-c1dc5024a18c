@@ -8182,6 +8182,8 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
 
 /* Batch: הקטנת הלוגו ב-10% */
 .logo { width: 144px !important; height: auto !important; }
+/* Batch: הסרת קו תחתון מהסרגל העליון בכל העמודים */
+.navbar, .navbar .nav-container, .navbar .nav-right-group, .navbar .nav-menu { border-bottom: none !important; outline: none !important; }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
