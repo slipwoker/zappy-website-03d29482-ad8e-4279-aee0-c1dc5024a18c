@@ -8076,6 +8076,25 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
   margin: 0 auto 40px auto;
   line-height: 1.6;
 }
+
+#zappy-section-1 .services-capabilities-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: rgba(232, 119, 74, 0.1);
+  margin-bottom: 16px;
+}
+
+#zappy-section-1 .services-capabilities-card-icon i {
+  font-size: 1.75rem;
+  color: var(--secondary, var(--secondary-color, var(--secondary, #E8774A)));
+}
+/* zappy-self-heal */
+#zappy-section-1 .services-capabilities-card-icon i { font-size: 1.75rem !important; }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
