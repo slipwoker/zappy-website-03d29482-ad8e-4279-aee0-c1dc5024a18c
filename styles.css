@@ -7777,6 +7777,8 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
 .navbar #navMenu > li > a, .navbar .nav-menu > li > a { color: #000000 !important; font-weight: 500 !important; font-size: 1rem !important; text-decoration: none !important; } @media (max-width: 768px) { .navbar #navMenu > li > a, .navbar .nav-menu > li > a { color: #000000 !important; font-weight: 500 !important; font-size: 1rem !important; text-decoration: none !important; } }
 /* Batch: שינוי סרגל ניווט עליון: פונט וגודל אחיד, צבע שחור, ללא קו תחתון */
 .nav-menu a, .nav-menu .menu-group-title, #navMenu a, #navMenu .menu-group-title, .navbar .nav-menu a, .navbar #navMenu a { font-family: 'Assistant', sans-serif !important; font-size: 16px !important; font-weight: 500 !important; color: #000000 !important; text-decoration: none !important; } .nav-menu a:hover, #navMenu a:hover, .navbar .nav-menu a:hover, .navbar #navMenu a:hover { color: #333333 !important; text-decoration: none !important; } .nav-menu a.active-nav, #navMenu a.active-nav { color: #000000 !important; text-decoration: none !important; }
+/* Batch: טעינת פונט Assistant לניווט */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700&display=swap');
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
