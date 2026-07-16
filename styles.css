@@ -8095,6 +8095,10 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
 /* zappy-self-heal */
 #zappy-section-1 .services-capabilities-card-icon i { font-size: 1.75rem !important; }
 
+
+#zappy-section-1 .services-capabilities-card-cta {
+  color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
