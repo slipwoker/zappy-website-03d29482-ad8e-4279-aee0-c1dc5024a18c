@@ -8205,6 +8205,22 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
 .about-profile-section__text span {
   font-size: inherit !important;
 }
+
+nav.navbar {
+  border-bottom: none !important;
+  border-bottom-width: 0 !important;
+  border-bottom-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar::after,
+.navbar::before {
+  content: '';
+  display: none !important;
+  border: none !important;
+  background: transparent !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
