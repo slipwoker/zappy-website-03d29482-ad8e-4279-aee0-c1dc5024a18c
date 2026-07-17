@@ -8226,6 +8226,11 @@ nav.navbar {
   display: block !important;
   margin-bottom: 10px !important;
 }
+
+.index-services-section .service-card.card-start,
+.index-services-section .service-card.card-end {
+  margin-top: 0 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
