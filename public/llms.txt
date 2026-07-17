@@ -1,4 +1,4 @@
-# מיכל אבני- מקצועיות קשובה ללב — Generative Engine Optimization Map
+# מיכל אבני- מקצועיות קשובה ללב  — Generative Engine Optimization Map
 
 > A professional coaching and education practice specializing in NLP (Neuro-Linguistic Programming), offering training, lecturing, and educational guidance. The practitioner also provides supervision services, indicating a high level of expertise and a role as a mentor to other professionals in the field. The brand likely conveys trust, personal growth, empowerment, and professional development.
 
@@ -59,7 +59,7 @@ Information about WCAG compliance and accessibility features.
 - Email: michal5677@gmail.com
 - Phone: 0523734312
 - Phone (tel): tel:0523734312
-- Address: התקווה, 7, פרדס חנה כרכור, ישראל, 3717237, ישראל
+- Address: התקווה 7, פרדס חנה כרכור, ישראל, 3717237, ישראל
 
 ### Contact form
 - URL: https://michal-avni.co.il/lets-talk
@@ -77,7 +77,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About מיכל אבני- מקצועיות קשובה ללב
+## About מיכל אבני- מקצועיות קשובה ללב 
 A professional coaching and education practice specializing in NLP (Neuro-Linguistic Programming), offering training, lecturing, and educational guidance. The practitioner also provides supervision services, indicating a high level of expertise and a role as a mentor to other professionals in the field. The brand likely conveys trust, personal growth, empowerment, and professional development.
 
 ## Services/Products
