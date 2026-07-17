@@ -8221,6 +8221,11 @@ nav.navbar {
   border: none !important;
   background: transparent !important;
 }
+
+.footer-company-col .footer-links li {
+  display: block !important;
+  margin-bottom: 10px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
