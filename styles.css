@@ -8188,6 +8188,23 @@ nav.navbar .sub-menu li a:hover { color: #C8745B !important; background-color: r
 
 /* Batch: הגדלת לוגו ב-20% בכל האתר */
 .nav-brand .logo-link img { height: 58px !important; width: auto !important; display: block !important; }
+
+@media (max-width: 768px) {
+#zappy-element-1783782809617-pdol3pyka {
+  display: none !important;
+}
+}
+
+.index-hero-section .hero-fade-content h3 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.about-profile-section__text span {
+  font-size: inherit !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
