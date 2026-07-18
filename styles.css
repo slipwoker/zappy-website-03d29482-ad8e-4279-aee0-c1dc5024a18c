@@ -8545,6 +8545,29 @@ nav.navbar {
   align-items: center !important;
   text-align: center !important;
 }
+
+.index-hero-section .hero-fade-content h2 {
+  margin-top: 0 !important;
+  margin-bottom: 6px !important;
+}
+
+.index-hero-section .hero-fade-content h2:empty {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+}
+
+.index-hero-section .hero-fade-content h3:empty {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+}
+
+.index-hero-section .hero-fade-content h2 + h2:not(:empty) {
+  margin-top: 4px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
