@@ -8188,6 +8188,7 @@ body.menu-open .navbar, body.nav-open .navbar, body.mobile-menu-open .navbar, .n
   max-width: 600px;
   margin: 0 auto 40px auto;
   line-height: 1.6;
+  margin-bottom: 16px;
 }
 
 #zappy-section-1 .services-capabilities-card-icon {
