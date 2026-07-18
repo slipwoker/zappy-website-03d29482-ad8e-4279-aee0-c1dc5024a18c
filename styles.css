@@ -8536,6 +8536,10 @@ nav.navbar {
     left: 5px;
   }
 }
+
+.index-services-section .services-intro {
+  margin-bottom: 16px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
