@@ -8540,6 +8540,11 @@ nav.navbar {
 .index-services-section .services-intro {
   margin-bottom: 16px !important;
 }
+
+.index-services-section .service-card {
+  align-items: center !important;
+  text-align: center !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
