@@ -8573,6 +8573,14 @@ nav.navbar {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+
+.nav-menu > li > a::after,
+#navMenu > li > a::after,
+.nav-menu a::after,
+.navbar .nav-menu a::after {
+  display: none !important;
+  content: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
