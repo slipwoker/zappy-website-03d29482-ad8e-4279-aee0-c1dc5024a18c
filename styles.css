@@ -8474,35 +8474,35 @@ nav.navbar {
 }
 
 @media (max-width: 768px) {
-  .cta-personal-section {
+.cta-personal-section {
     padding: 40px 15px;
   }
 
-  .cta-card {
+.cta-card {
     padding: 40px 25px 50px;
     border-radius: 14px;
   }
 
-  .cta-quote-mark {
+.cta-quote-mark {
     font-size: 80px;
     top: 15px;
     right: 20px;
   }
 
-  .cta-heading {
+.cta-heading {
     font-size: 1.6rem;
   }
 
-  .cta-text {
+.cta-text {
     font-size: 1rem;
   }
 
-  .cta-button {
+.cta-button {
     font-size: 1rem;
     padding: 12px 28px;
   }
 
-  .cta-decorative-plant {
+.cta-decorative-plant {
     width: 65px;
     height: 100px;
     bottom: 5px;
@@ -8511,25 +8511,25 @@ nav.navbar {
 }
 
 @media (max-width: 480px) {
-  .cta-card {
+.cta-card {
     padding: 30px 18px 45px;
   }
 
-  .cta-quote-mark {
+.cta-quote-mark {
     font-size: 60px;
     top: 10px;
     right: 15px;
   }
 
-  .cta-heading {
+.cta-heading {
     font-size: 1.4rem;
   }
 
-  .cta-text {
+.cta-text {
     font-size: 0.95rem;
   }
 
-  .cta-decorative-plant {
+.cta-decorative-plant {
     width: 50px;
     height: 80px;
     bottom: 0;
@@ -8542,8 +8542,8 @@ nav.navbar {
 }
 
 .index-services-section .service-card {
-  align-items: center !important;
-  text-align: center !important;
+  align-items: flex-end !important;
+  text-align: right !important;
 }
 
 .index-hero-section .hero-fade-content h2 {
