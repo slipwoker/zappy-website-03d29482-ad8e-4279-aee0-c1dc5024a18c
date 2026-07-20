@@ -8288,7 +8288,10 @@ body.menu-open .navbar, body.nav-open .navbar, body.mobile-menu-open .navbar, .n
 /* Batch: הסרת קו תחתון, הדגשת טקסט, והחלפת כפתור CTA מכתום לכחול */
 .nav-menu a, .nav-menu > li > a, #navMenu a, #navMenu > li > a { text-decoration: none !important; font-weight: 700 !important; }
 
-.navbar .hero-cta-primary, .navbar .nav-cta-container a, .nav-cta-container .hero-cta-primary { background-color: var(--primary, #1A3A6B) !important; color: #fff !important; }
+.navbar .hero-cta-primary, .navbar .nav-cta-container a, .nav-cta-container .hero-cta-primary {
+  background-color: var(--primary) !important;
+  color: #fff !important;
+}
 
 .navbar .hero-cta-primary:hover, .navbar .nav-cta-container a:hover, .nav-cta-container .hero-cta-primary:hover { background-color: #152e56 !important; color: #fff !important; }
 
