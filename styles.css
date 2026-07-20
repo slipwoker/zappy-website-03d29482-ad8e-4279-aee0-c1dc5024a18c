@@ -8581,6 +8581,22 @@ nav.navbar {
   display: none !important;
   content: none !important;
 }
+
+.nav-menu li a.active-nav {
+  border-bottom: none !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
+
+.navbar::after,
+.nav-container::after,
+.nav-menu::after {
+  display: none !important;
+  content: none !important;
+  background: none !important;
+  height: 0 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
