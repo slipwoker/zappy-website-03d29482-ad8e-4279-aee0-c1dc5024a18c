@@ -8597,6 +8597,15 @@ nav.navbar {
   background: none !important;
   height: 0 !important;
 }
+
+.index-hero-section .hero-text-group {
+  gap: 14px;
+}
+
+.index-hero-section .hero-services {
+  gap: 6px;
+  margin-block-start: 22px;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
