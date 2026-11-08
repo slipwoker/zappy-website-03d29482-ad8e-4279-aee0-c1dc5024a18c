@@ -2162,7 +2162,7 @@ main:not(.courses-page-main) { margin-top: 0 !important; padding-top: 0 !importa
 }
 
 .footer-legal a {
-  color: rgba(246, 239, 229, 0.55);
+  color: #f6efe5;
   text-decoration: none;
   transition: var(--transition);
   border-radius: var(--radius-sm);
@@ -8605,6 +8605,20 @@ nav.navbar {
 .index-hero-section .hero-services {
   gap: 6px;
   margin-block-start: 22px;
+}
+
+.site-footer .footer-bottom {
+  background-color: #3d342c;
+  color: var(--background-color, var(--background, var(--bg-light, #FFFFFF)));
+  border-top: 1px solid rgba(246,239,229,0.3);
+}
+
+.site-footer .footer-bottom .footer-legal a {
+  color: #f6efe5;
+}
+
+.site-footer .footer-bottom .footer-legal a:hover {
+  color: var(--background-color, var(--background, var(--bg-light, #FFFFFF)));
 }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
