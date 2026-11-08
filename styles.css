@@ -8620,6 +8620,31 @@ nav.navbar {
 .site-footer .footer-bottom .footer-legal a:hover {
   color: var(--background-color, var(--background, var(--bg-light, #FFFFFF)));
 }
+
+.site-footer .footer-bottom {
+  background-color: #f6efe5 !important;
+  color: #332820 !important;
+  border-top: 1px solid rgba(51,40,32,0.15);
+}
+
+.site-footer .footer-bottom .footer-legal a {
+  color: #332820 !important;
+}
+
+.site-footer .footer-bottom .footer-legal a:hover {
+  color: #C8745B !important;
+}
+
+.site-footer .footer-bottom .footer-copyright p {
+  color: var(--text-color, var(--text, var(--text-dark, #4a4a4a))) !important;
+}
+
+@media (max-width: 768px) {
+.site-footer .footer-bottom {
+  background-color: #f6efe5 !important;
+  color: #332820 !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
